@@ -1,0 +1,236 @@
+{
+  "title": "Demo",
+  "steps": [
+    {
+      "type": "setViewport",
+      "width": 985,
+      "height": 668,
+      "deviceScaleFactor": 1,
+      "isMobile": false,
+      "hasTouch": false,
+      "isLandscape": false
+    },
+    {
+      "type": "navigate",
+      "url": "https://www.saucedemo.com/",
+      "assertedEvents": [
+        {
+          "type": "navigation",
+          "url": "https://www.saucedemo.com/",
+          "title": "Swag Labs"
+        }
+      ]
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "aria/Username"
+        ],
+        [
+          "[data-test=username]"
+        ]
+      ],
+      "offsetY": 19,
+      "offsetX": 132.25
+    },
+    {
+      "type": "change",
+      "value": "standard",
+      "selectors": [
+        [
+          "aria/Username"
+        ],
+        [
+          "[data-test=username]"
+        ]
+      ],
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "Shift"
+    },
+    {
+      "type": "change",
+      "value": "standard_",
+      "selectors": [
+        [
+          "aria/Username"
+        ],
+        [
+          "[data-test=username]"
+        ]
+      ],
+      "target": "main"
+    },
+    {
+      "type": "keyUp",
+      "key": "Shift",
+      "target": "main"
+    },
+    {
+      "type": "change",
+      "value": "standard_user",
+      "selectors": [
+        [
+          "aria/Username"
+        ],
+        [
+          "[data-test=username]"
+        ]
+      ],
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "Tab"
+    },
+    {
+      "type": "keyUp",
+      "key": "Tab",
+      "target": "main"
+    },
+    {
+      "type": "change",
+      "value": "secret",
+      "selectors": [
+        [
+          "aria/Password"
+        ],
+        [
+          "[data-test=password]"
+        ]
+      ],
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "Shift"
+    },
+    {
+      "type": "change",
+      "value": "secret_",
+      "selectors": [
+        [
+          "aria/Password"
+        ],
+        [
+          "[data-test=password]"
+        ]
+      ],
+      "target": "main"
+    },
+    {
+      "type": "keyUp",
+      "key": "Shift",
+      "target": "main"
+    },
+    {
+      "type": "change",
+      "value": "secret_sauce",
+      "selectors": [
+        [
+          "aria/Password"
+        ],
+        [
+          "[data-test=password]"
+        ]
+      ],
+      "target": "main"
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "aria/Login"
+        ],
+        [
+          "[data-test=login-button]"
+        ]
+      ],
+      "offsetY": 24,
+      "offsetX": 185.25
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "[data-test=add-to-cart-sauce-labs-backpack]"
+        ]
+      ],
+      "offsetY": 22,
+      "offsetX": 72.0625
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "[data-test=add-to-cart-sauce-labs-bike-light]"
+        ]
+      ],
+      "offsetY": 13,
+      "offsetX": 23
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "[data-test=add-to-cart-sauce-labs-bolt-t-shirt]"
+        ]
+      ],
+      "offsetY": 3,
+      "offsetX": 91.0625
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "aria/3"
+        ],
+        [
+          "#shopping_cart_container > a"
+        ]
+      ],
+      "offsetY": 23,
+      "offsetX": 28
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "aria/Open Menu[role=\"button\"]"
+        ],
+        [
+          "#react-burger-menu-btn"
+        ]
+      ],
+      "offsetY": 15,
+      "offsetX": 15
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "aria/LOGOUT"
+        ],
+        [
+          "#logout_sidebar_link"
+        ]
+      ],
+      "offsetY": 15,
+      "offsetX": 61
+    }
+  ]
+}
